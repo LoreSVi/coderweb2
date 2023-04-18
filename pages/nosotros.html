@@ -6,31 +6,69 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Nosotros</title>
     <link rel="stylesheet" href="../css/style.css"> 
+      <!-- css BS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 </head>
 <body>
-    <nav>
-        <a href="../index.html">
-            <img src="../img/logoGlore.png" alt="Logo de ropa ">
+    <nav class="navbar navbar-expand-lg menuinicial sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../img/logoGlore.png" alt="logo genese lore indumentaria femenina">
           </a>
-        <ul>
-            <li> 
-                <a href="indumentaria.html">Indumentaria</a>
-             </li>
-             
-                <li> 
-                    <a href="promos.html">Promos</a>
-                 </li>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- boton hamburguesa -->
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                   <li class="nav-item">
+                      <a class="nav-link" href="../index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                      </li>
+                      <li class="nav-item">  
+                    <a class="nav-link" href="indumentaria.html">Indumentaria</a>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link" href="promos.html">Promos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="favoritos.html">Favoritos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-           <li> 
-            <a href="favoritos.html">Favoritos</a>
-         </li>
+      <section class="about">
+      <p>Somos una pyme emprendedora dedicada a la venta de indumentaria femenina.
+        <br>
+         En Geneselore amamos la ropa y queremos que te sientas vos, que te veas como te gusta que te vean. 
+         <br>Ofrecemos prendas de diseño único y de excelente calidad para lucirte cada día.
+         <br> Nuestro estilo representa el perfil de la mujer elegante, intransigente, glamorosa, decidida, con personalidad y que busca distinguirse. Un estilo casual, liberal y con detalles que enamoran.
+         <br> Buscamos seguir las tendencias, pero siempre con la originalidad y el sello que nos caracteriza.
+<br>
+      En Geneselore indumentaria queremos hacerte sentir cada día más feliz con vos misma!</p>
+    </section>
+       
 
-         <li> 
-            <a href="nosotros.html">Nosotros</a>
-         </li>
+      <footer>
+        <div class="d-flex">
+            <a href="https://facebook.com" target="_blank">
+                <img src="../img/iconos/facebook.png">
+            </a>
+        <a href="https://twitter.com" target="_blank">
+            <img src="../img/iconos/twitter.png">
+        </a>
+      </div>
+</footer>
 
-         <li> 
-            <a href="contacto.html">Contacto</a>
-         </li>
-    </ul>
-    </nav>
+     
+  <!-- Js BS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</body>
+</html>
