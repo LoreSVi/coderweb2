@@ -43,67 +43,82 @@
           </div>
         </div>
       </nav>
-
-      <section class="contenedor">
-        <h2>Indumentaria</h2>
-       <div class="productos">
-        
-        <figure>
-        <img src="../img/Productos/bluzabroderie.png" alt="blusa broderie">
-        <figcaption>blusa broderie</figcaption>
-        <p>Talle unico (small, medium, large)</p>
-        <button>+ Agregar al carrito</button>
-         </figure>
-         <!--card 1-->
-
-         <figure>
-            <img src="../img/Productos/remeole.png" alt="Remera letra Ole">
-            <figcaption>Remera Ole</figcaption>
-            <p>Talle unico (small, medium, large)</p>
-            <button>+ Agregar al carrito</button>
-             </figure>
-             <!--card 2-->
-
-             <figure>
-                <img src="../img/Productos/blusaborlas.png" alt="blusa borlas">
-                <figcaption>blusa borlas</figcaption>
-                <p>Talle unico (small, medium, large)</p>
-                <button>+ Agregar al carrito</button>
-                 </figure>
-                 <!--card 3-->
-
-              <figure>
-                    <img src="../img/Productos/blusabambula.png" alt="blusa bambula">
-                    <figcaption>blusa bambula</figcaption>
-                    <p>Talle unico (small, medium, large)</p>
-                    <button>+ Agregar al carrito</button>
-                     </figure>
-                     <!--card 4-->
-
-                     <figure>
-                        <img src="../img/Productos/chaquetagamuza.png" alt="chaqueta de gamuza">
-                        <figcaption>chaqueta de gamuza</figcaption>
-                        <p>Talle unico (small, medium, large)</p>
-                        <button>+ Agregar al carrito</button>
-                         </figure>
-                         <!--card 1--> <figure>
-                     <img src="../img/Productos/kimonowings.png" alt="Kimonowings kimono con alas estampadas espalda">
-                    <figcaption>kimonowings</figcaption>
-                     <p>Talle unico (small, medium, large)</p>
-                     <button>+ Agregar al carrito</button>
-                     </figure>
-                     <!--card 2-->
-                     <figure>
-                        <img src="../img/Productos/monotropical.png" alt="vestimenta mono corto estampado tropical">
-                        <figcaption>monotropical</figcaption>
-                        <p>Talle unico (small, medium, large)</p>
-                        <button>+ Agregar al carrito</button>
-                         </figure>
-                         <!--card 3-->
-                  
-                </div>
-      </section>
+      <main class="tienda">
+        <div class="actions">
+            <form action="">
+                <input type="text" placeholder="buscar">
+                <button>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                    </svg>
+                </button>
+            </form>
+            <button>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                </svg>
+            </button>
+        </div>
+        <!-- ends second nav -->
+        <section class="filters">
+            <form>
+                <select name="categorias">
+                    <option>Categorias</option>
+                    <option value="remeras">Remeras,tops</option>
+                    <option value="pantalones">Pantalones, polleras</option>
+                    <option value="vestidos">Vestidos</option>
+                    <option value="abrigos">Abrigos</option>
+                </select>
+                <span><b>Indumentaria</b></span>
+                <ul>
+                    <li>
+                        <a href="../pages/favoritos.html">monotropical</a>
+                    </li>
+                    <li>
+                        <a href="#">chaqueta de gamuza</a>
+                    </li>
+                    <li>
+                        <a href="#">kimonowings</a>
+                    </li>
+                    <li>
+                        <a href="#">blusa broderie</a>
+                    </li>
+                    <li>
+                        <a href="#">Remera Ole</a>
+                    </li>
+                    <li>
+                        <a href="#">blusa borlas</a>
+                    </li>
+                    <li>
+                        <a href="#">blusa bambula</a>
+                    </li>
+                </ul>
+            </form>
+        </section>
+        <!-- ends filters -->
+        <section class="prod1 bg-gris">
+            <img src="../img/productos/blusabambula.png" alt="">
+            <p>Un estilo casual, liberal y con detalles que enamoran.</p>
+        </section>
+        <!-- ends prod 1 -->
+        <section class="prod2 bg-gris">
+            <img src="../img/productos/blusaborlas.png" alt="">
+            <p>Sentite vos!
+              <br>Sentite cada día más feliz con vos misma!
+            <br>Elegante, intransigente, glamorosa, decidida, con personalidad ❤(●'◡'●) </p>
+        </section>
+        <!-- ends prod 2 -->
+        <section class="prod3 bg-gris">
+            <img src="../img/Productos/chaquetagamuza.png" alt="">
+        </section>
+        <!-- ends prod 3 -->
+        <section class="prod4 bg-gris">
+            <img src="../img/productos/kimonowings.png" alt="">
+        </section>
+        <!-- ends prod 4 -->
     </main>
+    <!-- ends main -->
+     
 
            <footer>
             <div class="d-flex">

@@ -1,21 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Farsan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital@1&family=Roboto&display=swap');
 
-*{
-font-family: 'Farsan', cursive;
+h1,h2{
+    font-family: 'Bitter', serif;
 }
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+
 
 .menuinicial{
-    background-color: rgb(240, 196, 196)
+    background-color: rgb(225, 111, 156)
 }
+   
 
     .menuinicial img{
         width: 100px;
-        justify-content: center;
+        
     }
 
     .menuinicial li a{
         color: rgb(19, 16, 19);
     }
+
+   
 
 h1,
 h2,
@@ -44,11 +53,6 @@ p{
     padding: 0 20px;
     font-weight: 300;
 }
-
-label{
-    color: rgb(119, 185, 39);
-}
-
 
 
 .bg-pattern{
@@ -119,6 +123,9 @@ label{
    justify-content: center;
    flex-direction: row;
 }
+label{
+    color: rgb(100, 39, 185);
+}
 
 footer{
     padding: 20px 30px;
@@ -126,7 +133,7 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(224, 226, 226);
+    background-color: rgb(228, 138, 232);
     }
 
    
@@ -146,7 +153,7 @@ footer{
 
 .actions button{
     margin-left: 10px;
-    background-color: rgb(161, 20, 255);
+    background-color: rgb(168, 94, 216);
     color: white;
     padding: 6px;
     border: none;
@@ -157,7 +164,7 @@ footer{
     padding: 6px;
     border-radius: 3px;
     border: none;
-    background-color: rgb(34, 81, 81);
+    background-color: rgb(180, 169, 174);
 }
 
 .tienda{
@@ -166,14 +173,15 @@ footer{
     grid-template-rows: 80px repeat(3,300px);
     grid-template-areas: 
     "actions actions actions" 
-    "filters uno uno" 
     "filters dos tres"
-    "filters dos cuatro";
+    "filters dos cuatro"
+    "filters uno uno" 
+    ;
     gap: 5px;
 }
 
     .tienda section{
-        border-radius: 10px;
+        border-radius: 20px;
     }
 
     .tienda .actions{
@@ -216,6 +224,8 @@ footer{
 
 .about{
     padding: 10px 0;
+    background-image: url(/img/fondos/bubble.png);
+    padding: 40px;
 }
 
 .about__box{
@@ -249,6 +259,15 @@ footer{
     padding-left: 60px;
     margin: 10px 0;
 }
+.contacto{
+    background-color: rgb(181, 166, 195);
+    padding: 30px;
+}
+
+.favoritos{
+    background-color: rgb(239, 188, 219);
+}
+
 
 
 @media (width < 768px){
@@ -300,9 +319,6 @@ footer{
         .actions input{
             width: 350px;
         }
-
-    
-
     /* footer */
     footer{
         flex-direction: column;
