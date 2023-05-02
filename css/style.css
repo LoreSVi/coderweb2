@@ -3,7 +3,7 @@
 h1,h2{
     font-family: 'Bitter', serif;
 }
-
+/*pasado
 p{
     font-family: 'Roboto', sans-serif;
 }
@@ -24,7 +24,7 @@ p{
         color: rgb(19, 16, 19);
     }
 
-   
+   */
 
 h1,
 h2,
@@ -74,7 +74,7 @@ p{
 .d-flex{
     display: flex;
 }
-
+/*pasado
 .productos{
     padding: 0 30px;
     display: flex;
@@ -118,14 +118,19 @@ p{
             margin-bottom: 20px;
            
         }
+        
+        /*pasado
 .contacto{
     display: flex;
    justify-content: center;
    flex-direction: row;
+   background-color: rgb(181, 166, 195);
+    padding: 30px;
 }
-label{
-    color: rgb(100, 39, 185);
+      label{
+    color: rgb(73, 39, 185);
 }
+
 
 footer{
     padding: 20px 30px;
@@ -144,7 +149,8 @@ footer{
         font-size: 0.8rem;
         margin-bottom: 4px;
     }
-
+    */
+/*actions*/
 .actions{
     display: flex;
     justify-content: flex-end;
@@ -167,6 +173,7 @@ footer{
     background-color: rgb(180, 169, 174);
 }
 
+/*tienda*/
 .tienda{
     display: grid;
     grid-template-columns: 20% repeat(2,1fr);
@@ -221,7 +228,7 @@ footer{
         justify-content: center;
         align-items: center;
     }
-
+/*about*/
 .about{
     padding: 10px 0;
     background-image: url(/img/fondos/bubble.png);
@@ -233,23 +240,25 @@ footer{
     flex-direction: row;
     align-items: center;
 }
-
+/*
 .about__box--reverse{
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-start;
 }
-
+/*
 .about__header--left{
     text-align: left;
     margin: 10px 0;
     padding-left: 60px;
 }
-
+*/
+/*
 .about__text--md{
     font-size: 1.8em;
 }
-
+*/
+/*
 .about__link--left{
     display: block;
     text-align: left;
@@ -259,10 +268,7 @@ footer{
     padding-left: 60px;
     margin: 10px 0;
 }
-.contacto{
-    background-color: rgb(181, 166, 195);
-    padding: 30px;
-}
+*/
 
 .favoritos{
     background-color: rgb(239, 188, 219);

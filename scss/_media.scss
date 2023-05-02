@@ -1,0 +1,82 @@
+@media (width < 768px){
+    /* tienda */
+    .tienda{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6,auto);
+        grid-template-areas: 
+        "actions" 
+        "filters" 
+        "uno" 
+        "dos" 
+        "tres" 
+        "cuatro";
+         prod1{
+            flex-direction: column;
+              }
+            }
+
+    nav{
+        justify-content: center;
+         ul{
+            display: none;
+            }
+       }
+
+    .filters span,
+    .filters ul,
+    .filters label,
+    .filters input[type="checkbox"]{
+        display: none;
+    }
+
+    .filters select{
+        margin-top: 10px;
+        width: 400px;
+        background-color: rgb(116, 17, 17);
+        padding: 8px;
+        border-radius: 4px;
+    }
+
+    .actions{
+        justify-content: center;
+        margin-top: 20px;
+            input{
+            width: 350px;
+                  }
+            }
+    /* footer */
+    footer{
+        flex-direction: column;
+             a{
+        font-size: 1.4em;
+              }
+            }
+
+        footer div:nth-child(2){
+            margin: 10px 0;
+        }
+
+      
+
+    /* index */
+    .productos figure{
+        width: 100%;
+    }
+
+        .productos figure p{
+            padding: 0 20px;
+            font-size: 1.8em;
+        }
+
+        .productos figure img{
+            width: 50%;
+        }
+
+        .productos figure button{
+            width: 90%;
+        }
+    p{
+        font-size: 2em;
+        padding: 0 10px;
+    }
+}

@@ -1,0 +1,84 @@
+/*tienda*/
+.tienda{
+    display: grid;
+    grid-template-columns: 20% 40% 40%;
+    grid-template-rows: 80px repeat(3,300px);
+    grid-template-areas: 
+    "actions actions actions" 
+    "filters dos tres"
+    "filters dos cuatro"
+    "filters uno uno" 
+    ;
+    gap: 5px;
+}
+
+    .tienda section{
+        border-radius: 20px;
+    }
+
+ .tienda {
+        .actions{
+        padding: 0 30px;
+        grid-area: actions;
+         display: flex;
+        justify-content: flex-end;
+         align-items: center;
+               button{
+                margin-left: 10px;
+              background-color: rgb(168, 94, 216);
+               color: white;
+               padding: 6px;
+              border: none;
+               border-radius: 3px;
+                      }
+                 input{
+                padding: 6px;
+                 border-radius: 3px;
+                 border: none;
+                 background-color: rgb(180, 169, 174);
+                      }
+        }
+    } 
+     
+
+    .tienda .filters{
+        grid-area: filters;
+    }
+
+    .tienda .prod1{
+        grid-area: uno;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .tienda .prod2{
+       grid-area: dos;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+
+    .tienda .prod3{
+        grid-area: tres;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tienda .prod4{
+        grid-area: cuatro;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+
+
+  
+
+   

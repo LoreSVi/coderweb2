@@ -1,0 +1,70 @@
+p{
+    font-family:$secondFont;
+}
+
+.bg-pattern{
+    background-image: url(../img/fondos/bubble.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+
+.contenedor{
+    width: 90%;
+    height:auto;
+    margin: 20px auto;
+    padding: 10px 50px;
+    overflow-y: auto;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.about{
+    padding: 10px 0;
+    background-image: url(/img/fondos/bubble.png);
+    padding: 40px;
+    __box{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+.favoritos{
+    background-color: rgb(239, 188, 219);
+    display: flex;
+}
+ /*contacto*/
+ .contacto{
+    display: flex;
+   justify-content: center;
+   flex-direction: row;
+   background-color: rgb(181, 166, 195);
+    padding: 30px;
+          label{
+              color: rgb(73, 39, 185);
+                }
+           }
+
+.ayuda{
+    margin-left: 4em;
+}
+
+/*footer*/
+footer{
+     padding: 20px 30px;
+     margin-top: 50px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: rgb(228, 138, 232);
+          a{
+        text-decoration: none;
+        display: block;
+        color: rgb(51, 20, 255);
+        font-size: 0.8rem;
+        margin-bottom: 4px;
+             }
+       }
