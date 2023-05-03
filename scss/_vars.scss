@@ -15,3 +15,16 @@ $textXl:4em;
 //font weight
 $fontRegular:300;
 $fontBold:600;
+
+
+.header-gral{
+    height: 30vh;
+    background-size: cover;
+    background-position: top center;
+    background-image: url(../img/bannerDesarrolloweb.png);
+}
+
+.header-promos{
+    @extend .header-gral;
+    background-image: url(../img/headersimg/sale50off.jpg);
+}

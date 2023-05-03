@@ -1,3 +1,14 @@
+.header-gral, .header-promos {
+  height: 30vh;
+  background-size: cover;
+  background-position: top center;
+  background-image: url(../img/bannerDesarrolloweb.png);
+}
+
+.header-promos {
+  background-image: url(../img/headersimg/sale50off.jpg);
+}
+
 p {
   font-family: "Roboto", sans-serif;
 }
