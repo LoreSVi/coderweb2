@@ -1,0 +1,13 @@
+@keyframes animadoheader {
+    0%{background-image: url(../img/headersimg/favoritoheart.jpg)}
+    50%{background-image: url(../img/headersimg/heart2.jpg)}
+    100%{background-image: url(../img/headersimg/corazon3.jpg)}
+}
+
+.headerAnimado{
+    height:50vh;
+    background-size: cover;
+    animation-name: animadoheader;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}

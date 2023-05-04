@@ -1,5 +1,10 @@
 p{
     font-family:$secondFont;
+    @include textos(1.2em,10px,rgb(127, 49, 137))
+}
+
+h1{
+    @include textos(3em,25px,$mainColor)
 }
 
 .bg-pattern{

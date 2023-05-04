@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital@1&family=Roboto&display=swap");
 .header-gral, .header-promos {
   height: fit-content;
   background-image: url(../img/bannerDesarrolloweb.png);
@@ -9,6 +10,15 @@
 
 p {
   font-family: "Roboto", sans-serif;
+  font-size: size;
+  padding: 10px;
+  color: rgb(127, 49, 137);
+}
+
+h1 {
+  font-size: size;
+  padding: 25px;
+  color: rgb(254, 97, 167);
 }
 
 .bg-pattern {
@@ -93,6 +103,25 @@ footer a {
 }
 .menuinicial ul li a:hover {
   color: blueviolet;
+}
+
+@keyframes animadoheader {
+  0% {
+    background-image: url(../img/headersimg/favoritoheart.jpg);
+  }
+  50% {
+    background-image: url(../img/headersimg/heart2.jpg);
+  }
+  100% {
+    background-image: url(../img/headersimg/corazon3.jpg);
+  }
+}
+.headerAnimado {
+  height: 50vh;
+  background-size: cover;
+  animation-name: animadoheader;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
 }
 
 .productos {
@@ -225,7 +254,7 @@ footer a {
   .filters select {
     margin-top: 10px;
     width: 400px;
-    background-color: rgb(116, 17, 17);
+    background-color: rgb(183, 76, 161);
     padding: 8px;
     border-radius: 4px;
   }

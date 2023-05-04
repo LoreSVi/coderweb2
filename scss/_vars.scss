@@ -2,6 +2,11 @@
 $mainColor:rgb(254, 97, 167);
 $footerColor:pink;
 
+@mixin textos($size,$padding,$color){
+    font-size: size;
+    padding: $padding;
+    color:$color
+}
 //fonts
 $mainFont:'Bitter', serif;
 $secondFont:'Roboto', sans-serif;
@@ -15,6 +20,7 @@ $textXl:4em;
 //font weight
 $fontRegular:300;
 $fontBold:600;
+
 
 
 .header-gral{
