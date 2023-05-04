@@ -1,7 +1,5 @@
 .header-gral, .header-promos {
-  height: 30vh;
-  background-size: cover;
-  background-position: top center;
+  height: fit-content;
   background-image: url(../img/bannerDesarrolloweb.png);
 }
 
