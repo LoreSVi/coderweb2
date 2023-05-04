@@ -21,7 +21,7 @@ h1 {
   color: rgb(254, 97, 167);
 }
 
-.bg-pattern {
+.bg-pattern, .pagina-error-404 {
   background-image: url(../img/fondos/bubble.png);
   background-repeat: repeat;
   background-attachment: fixed;
@@ -120,7 +120,7 @@ footer a {
   height: 50vh;
   background-size: cover;
   animation-name: animadoheader;
-  animation-duration: 20s;
+  animation-duration: 8s;
   animation-iteration-count: infinite;
 }
 

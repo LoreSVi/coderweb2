@@ -13,6 +13,9 @@ h1{
     background-attachment: fixed;
 }
 
+.pagina-error-404{
+   @extend .bg-pattern;
+}
 
 .contenedor{
     width: 90%;
@@ -73,3 +76,6 @@ footer{
         margin-bottom: 4px;
              }
        }
+
+
+       
