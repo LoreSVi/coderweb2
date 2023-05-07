@@ -20,6 +20,7 @@ $textXl:4em;
 
 $fontRegular:300;
 $fontBold:600;
+$fontLight:100;
 
 
 
@@ -32,3 +33,5 @@ $fontBold:600;
     @extend .header-gral;
     background-image: url(../img/headersimg/sale50off.jpg);
 }
+
+

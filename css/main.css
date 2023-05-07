@@ -12,19 +12,24 @@ p {
   font-family: "Roboto", sans-serif;
   font-size: size;
   padding: 10px;
-  color: rgb(127, 49, 137);
+  color: rgb(137, 45, 149);
 }
 
 h1 {
-  font-size: size;
-  padding: 25px;
-  color: rgb(254, 97, 167);
+  text-align: center;
+  text-decoration: wavy;
+  font-style: italic;
+  font-family: "Bitter", serif;
+  padding: 20px;
 }
 
-.bg-pattern, .pagina-error-404 {
-  background-image: url(../img/fondos/bubble.png);
+.bg-pattern, .pagina-error-404, .home-bg {
   background-repeat: repeat;
   background-attachment: fixed;
+}
+
+.home-bg {
+  background-image: url(../img/fondos/fondorosado.jpg);
 }
 
 .contenedor {
@@ -40,9 +45,17 @@ h1 {
 }
 
 .about {
-  padding: 10px 0;
+  padding: 20 20px;
   background-image: url(/img/fondos/bubble.png);
   padding: 40px;
+  font-size: 2em;
+  text-align: center;
+}
+.about p {
+  padding-top: 30px;
+  color: rgb(180, 7, 166);
+  font-weight: 100;
+  font-family: "Bitter", serif;
 }
 .about __box {
   display: flex;
@@ -55,7 +68,6 @@ h1 {
   display: flex;
 }
 
-/*contacto*/
 .contacto {
   display: flex;
   justify-content: center;
@@ -68,10 +80,20 @@ h1 {
 }
 
 .ayuda {
-  margin-left: 4em;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
-/*footer*/
+li a {
+  color: rgb(235, 68, 229);
+  list-style-type: none;
+  text-decoration: none;
+}
+li a:hover {
+  color: rgb(43, 222, 58);
+}
+
 footer {
   padding: 20px 30px;
   margin-top: 50px;
@@ -86,6 +108,13 @@ footer a {
   color: rgb(51, 20, 255);
   font-size: 0.8rem;
   margin-bottom: 4px;
+}
+
+.pagina-error-404 li a {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-weight: 600;
 }
 
 .menuinicial {
@@ -125,7 +154,7 @@ footer a {
 }
 
 .productos {
-  padding: 0 30px;
+  padding: 0 20px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -133,22 +162,23 @@ footer a {
   text-align: center;
 }
 .productos figure {
-  width: 30%;
-  border-radius: 4px;
-  border: solid gray 1px;
-  margin-bottom: 20px;
+  width: 20%;
+  border-radius: 10px;
+  border: solid rgb(120, 14, 117) 1px;
+  margin-bottom: 25px;
+  background-color: rgb(245, 227, 227);
 }
 .productos figure p {
   font-size: 1rem;
-  line-height: 1.2rem;
-  margin: 20px 0;
+  line-height: 2rem;
+  margin: 15px 10px;
   text-align: center;
 }
 .productos figure img {
-  width: 100%;
+  width: 95%;
 }
 .productos figure figcaption {
-  color: rgb(90, 20, 255);
+  color: rgb(221, 21, 138);
   font-size: 2em;
   margin-top: 10px;
 }
@@ -161,17 +191,12 @@ footer a {
   margin-bottom: 20px;
 }
 
-/*tienda*/
 .tienda {
   display: grid;
   grid-template-columns: 20% 40% 40%;
   grid-template-rows: 80px repeat(3, 300px);
   grid-template-areas: "actions actions actions" "filters dos tres" "filters dos cuatro" "filters uno uno";
   gap: 5px;
-}
-
-.tienda section {
-  border-radius: 20px;
 }
 
 .tienda .actions {
@@ -230,13 +255,21 @@ footer a {
 }
 
 @media (width < 768px) {
-  /* tienda */
   .tienda {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 2fr 2fr;
     grid-template-rows: repeat(6, auto);
     grid-template-areas: "actions" "filters" "uno" "dos" "tres" "cuatro";
   }
   .tienda prod1 {
+    flex-direction: column;
+  }
+  .tienda prod2 {
+    flex-direction: column;
+  }
+  .tienda prod3 {
+    flex-direction: column;
+  }
+  .tienda prod4 {
     flex-direction: column;
   }
   nav {
@@ -265,7 +298,6 @@ footer a {
   .actions input {
     width: 350px;
   }
-  /* footer */
   footer {
     flex-direction: column;
   }
@@ -275,7 +307,6 @@ footer a {
   footer div:nth-child(2) {
     margin: 10px 0;
   }
-  /* index */
   .productos figure {
     width: 100%;
   }

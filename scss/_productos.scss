@@ -1,26 +1,27 @@
 .productos{
-    padding: 0 30px;
+    padding: 0 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     text-align: center;
       figure{
-        width: 30%;
-        border-radius: 4px;
-        border: solid gray 1px;
-        margin-bottom: 20px;
+        width: 20%;
+        border-radius: 10px;
+        border: solid rgb(120, 14, 117) 1px;
+        margin-bottom: 25px;
+        background-color: rgb(245, 227, 227);
         p{
             font-size: 1rem;
-            line-height: 1.2rem;
-            margin: 20px 0;
+            line-height: 2rem;
+            margin: 15px 10px;
             text-align: center;
         }
         img{
-            width: 100%;
+            width: 95%;
         }
         figcaption{
-            color: rgb(90, 20, 255);
+            color: rgb(221, 21, 138);
             font-size: $textMd;
             margin-top: 10px;
         }

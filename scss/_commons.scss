@@ -1,16 +1,24 @@
 p{
     font-family:$secondFont;
-    @include textos(1.2em,10px,rgb(127, 49, 137))
+    @include textos(1.2em,10px,rgb(137, 45, 149))
 }
 
 h1{
-    @include textos(3em,25px,$mainColor)
+    text-align: center;
+    text-decoration: wavy;
+    font-style: italic;
+    font-family:$mainFont;
+    padding: 20px;
 }
 
 .bg-pattern{
-    background-image: url(../img/fondos/bubble.png);
     background-repeat: repeat;
     background-attachment: fixed;
+}
+
+.home-bg{
+    @extend .bg-pattern;
+    background-image: url(../img/fondos/fondorosado.jpg);
 }
 
 .pagina-error-404{
@@ -30,9 +38,17 @@ h1{
 }
 
 .about{
-    padding: 10px 0;
+    padding: 20 20px;
     background-image: url(/img/fondos/bubble.png);
     padding: 40px;
+    font-size:$textMd;
+    text-align: center;
+      p{
+        padding-top: 30px;
+        color:rgb(180, 7, 166);
+        font-weight: $fontLight;
+        font-family:$mainFont;
+      }
     __box{
         display: flex;
         flex-direction: row;
@@ -57,9 +73,21 @@ h1{
            }
 
 .ayuda{
-    margin-left: 4em;
+    display:flex;
+    flex-direction:column;
+    text-align: center;
 }
 
+li{
+   a{
+   color:rgb(235, 68, 229);
+   list-style-type:none;
+   text-decoration: none;
+    &:hover{
+        color:rgb(43, 222, 58);
+    }
+  }
+}
 
 footer{
      padding: 20px 30px;
@@ -76,6 +104,15 @@ footer{
         margin-bottom: 4px;
              }
        }
-
+.pagina-error-404{
+    li{
+        a{
+            display:flex;
+            flex-direction:column;
+            text-align: center;
+            font-weight: $fontBold;
+        }
+    }
+}
 
        

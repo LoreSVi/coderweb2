@@ -1,7 +1,7 @@
 @media (width < 768px){
   
     .tienda{
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 2fr 2fr;
         grid-template-rows: repeat(6,auto);
         grid-template-areas: 
         "actions" 
@@ -13,6 +13,15 @@
          prod1{
             flex-direction: column;
               }
+         prod2{
+            flex-direction: column;
+              }
+        prod3{
+            flex-direction: column;
+             }
+        prod4{
+            flex-direction: column;
+             }    
             }
 
     nav{
