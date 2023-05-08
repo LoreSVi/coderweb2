@@ -20,7 +20,7 @@ h1 {
   text-decoration: wavy;
   font-style: italic;
   font-family: "Bitter", serif;
-  padding: 20px;
+  padding: 15px;
 }
 
 .bg-pattern, .pagina-error-404, .home-bg {
@@ -115,6 +115,13 @@ footer a {
   flex-direction: column;
   text-align: center;
   font-weight: 600;
+}
+
+.form-ingreso button {
+  background-color: #e73186;
+}
+.form-ingreso .form-check .form-check-input {
+  background-color: #e73186;
 }
 
 .menuinicial {
