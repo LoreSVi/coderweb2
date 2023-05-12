@@ -39,20 +39,19 @@ h1{
 
 .about{
     padding: 20 20px;
-    background-image: url(/img/fondos/bubble.png);
     padding: 40px;
     font-size:$textMd;
     text-align: center;
+    .__box{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
       p{
         padding-top: 30px;
         color:rgb(180, 7, 166);
         font-weight: $fontLight;
         font-family:$mainFont;
-      }
-    __box{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+        }
     }
 }
 

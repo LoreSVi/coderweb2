@@ -46,21 +46,20 @@ h1 {
 
 .about {
   padding: 20 20px;
-  background-image: url(/img/fondos/bubble.png);
   padding: 40px;
   font-size: 2em;
   text-align: center;
 }
-.about p {
+.about .__box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.about .__box p {
   padding-top: 30px;
   color: rgb(180, 7, 166);
   font-weight: 100;
   font-family: "Bitter", serif;
-}
-.about __box {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
 }
 
 .favoritos {
