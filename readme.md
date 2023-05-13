@@ -1,4 +1,4 @@
-### Bienvenido al repositorio de Geneselore!:tw-1f60d::tw-1f60a:
+<h1> Bienvenido al repositorio de Geneselore!😁</h1>
 
 ### Introducción:
 Este proyecto fue realizado para la presentación final del curso de Desarrollo Web dictado por CoderHouse. El proyecto es una tienda online de Indumentaria femenina. Consta de 8 páginas dónde utilice HTML, CSS, SASS y Bootstrap.
