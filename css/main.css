@@ -284,18 +284,15 @@ footer a {
   nav ul {
     display: none;
   }
-  .filters span,
-  .filters ul,
-  .filters label,
-  .filters input[type=checkbox] {
-    display: none;
-  }
   .filters select {
     margin-top: 10px;
     width: 400px;
     background-color: rgb(183, 76, 161);
     padding: 8px;
     border-radius: 4px;
+  }
+  .filters input[type=checkbox] {
+    display: none;
   }
   .actions {
     justify-content: center;
