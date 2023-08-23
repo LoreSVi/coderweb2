@@ -5,10 +5,10 @@ p {
 
 h1 {
   text-align: center;
-  text-decoration: wavy;
-  font-style: italic;
-  font-family: $mainFont;
+  font-family: "Kalam", cursive;
+  font-weight: 500;
   padding: 15px;
+  color:black
 }
 // SECCION DE ANUNCIO CON ANIMACION
 
@@ -17,7 +17,7 @@ h1 {
   width: 100%;
   font-size: 0.8rem;
   overflow-x: hidden;
-  color:antiquewhite; 
+  color: antiquewhite;
 
   a {
     text-decoration: none;
@@ -25,7 +25,7 @@ h1 {
   }
 }
 .contenedor-envios {
-  background-color:black;
+  background-color: black;
   width: 100%;
   position: relative;
   align-items: center;
@@ -146,12 +146,16 @@ footer {
   justify-content: space-between;
   align-items: center;
   background-color: rgb(228, 138, 232);
-  a {
-    text-decoration: none;
-    display: block;
-    color: rgb(51, 20, 255);
-    font-size: 0.8rem;
-    margin-bottom: 4px;
+
+  li {
+    list-style: none;
+    a {
+      text-decoration: none;
+      display: block;
+      color: rgb(51, 20, 255);
+      font-size: 0.8rem;
+      margin-bottom: 4px;
+    }
   }
 }
 .pagina-error-404 {

@@ -17,10 +17,10 @@ p {
 
 h1 {
   text-align: center;
-  text-decoration: wavy;
-  font-style: italic;
-  font-family: "Bitter", serif;
+  font-family: "Kalam", cursive;
+  font-weight: 500;
   padding: 15px;
+  color: black;
 }
 
 .seccion-anuncio {
@@ -140,7 +140,10 @@ footer {
   align-items: center;
   background-color: rgb(228, 138, 232);
 }
-footer a {
+footer li {
+  list-style: none;
+}
+footer li a {
   text-decoration: none;
   display: block;
   color: rgb(51, 20, 255);
