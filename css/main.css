@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Bitter:ital@1&family=Roboto&display=swap");
-.header-gral, .header-promos {
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital@1&family=Lato:wght@100&family=Mukta:wght@200&family=Roboto&display=swap");
+.header-gral,
+.header-promos {
   height: fit-content;
   background-image: url(../img/bannerDesarrolloweb.png);
 }
@@ -9,7 +10,7 @@
 }
 
 p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto";
   font-size: size;
   padding: 10px;
   color: rgb(137, 45, 149);
@@ -23,13 +24,10 @@ h1 {
   padding: 15px;
 }
 
-.bg-pattern, .pagina-error-404, .home-bg {
+.bg-pattern,
+.pagina-error-404 {
   background-repeat: repeat;
   background-attachment: fixed;
-}
-
-.home-bg {
-  background-image: url(../img/fondos/fondorosado.jpg);
 }
 
 .contenedor {
@@ -124,7 +122,7 @@ footer a {
 }
 
 .menuinicial {
-  background-color: rgb(254, 97, 167);
+  background-color: rgb(236, 197, 214);
 }
 .menuinicial img {
   width: 100px;
@@ -190,7 +188,7 @@ footer a {
 }
 .productos figure button {
   border: solid;
-  background-color: rgb(254, 97, 167);
+  background-color: rgb(236, 197, 214);
   color: white;
   border-radius: 8px;
   padding: 10px;
@@ -291,7 +289,7 @@ footer a {
     padding: 8px;
     border-radius: 4px;
   }
-  .filters input[type=checkbox] {
+  .filters input[type="checkbox"] {
     display: none;
   }
   .actions {

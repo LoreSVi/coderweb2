@@ -1,130 +1,121 @@
-p{
-    font-family:$secondFont;
-    @include textos(1.2em,10px,rgb(137, 45, 149))
+p {
+  font-family: $secondFont;
+  @include textos(1.2em, 10px, rgb(137, 45, 149));
 }
 
-h1{
-    text-align: center;
-    text-decoration: wavy;
-    font-style: italic;
-    font-family:$mainFont;
-    padding: 15px;
+h1 {
+  text-align: center;
+  text-decoration: wavy;
+  font-style: italic;
+  font-family: $mainFont;
+  padding: 15px;
 }
 
-.bg-pattern{
-    background-repeat: repeat;
-    background-attachment: fixed;
+.bg-pattern {
+  background-repeat: repeat;
+  background-attachment: fixed;
 }
 
-.home-bg{
-    @extend .bg-pattern;
-    background-image: url(../img/fondos/fondorosado.jpg);
+.pagina-error-404 {
+  @extend .bg-pattern;
 }
 
-.pagina-error-404{
-   @extend .bg-pattern;
+.contenedor {
+  width: 90%;
+  height: auto;
+  margin: 20px auto;
+  padding: 10px 50px;
+  overflow-y: auto;
 }
 
-.contenedor{
-    width: 90%;
-    height:auto;
-    margin: 20px auto;
-    padding: 10px 50px;
-    overflow-y: auto;
+.d-flex {
+  display: flex;
 }
 
-.d-flex{
+.about {
+  padding: 20 20px;
+  padding: 40px;
+  font-size: $textMd;
+  text-align: center;
+  .__box {
     display: flex;
-}
-
-.about{
-    padding: 20 20px;
-    padding: 40px;
-    font-size:$textMd;
-    text-align: center;
-    .__box{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-      p{
-        padding-top: 30px;
-        color:rgb(180, 7, 166);
-        font-weight: $fontLight;
-        font-family:$mainFont;
-        }
-    }
-}
-
-.favoritos{
-    background-color: rgb(239, 188, 219);
-    display: flex;
-}
- 
- .contacto{
-    display: flex;
-   justify-content: center;
-   flex-direction: row;
-   background-color: rgb(181, 166, 195);
-    padding: 30px;
-          label{
-              color: rgb(73, 39, 185);
-                }
-           }
-
-.ayuda{
-    display:flex;
-    flex-direction:column;
-    text-align: center;
-}
-
-li{
-   a{
-   color:rgb(235, 68, 229);
-   list-style-type:none;
-   text-decoration: none;
-    &:hover{
-        color:rgb(43, 222, 58);
+    flex-direction: row;
+    align-items: center;
+    p {
+      padding-top: 30px;
+      color: rgb(180, 7, 166);
+      font-weight: $fontLight;
+      font-family: $mainFont;
     }
   }
 }
 
-footer{
-     padding: 20px 30px;
-     margin-top: 50px;
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     background-color: rgb(228, 138, 232);
-          a{
-        text-decoration: none;
-        display: block;
-        color: rgb(51, 20, 255);
-        font-size: 0.8rem;
-        margin-bottom: 4px;
-             }
-       }
-.pagina-error-404{
-    li{
-        a{
-            display:flex;
-            flex-direction:column;
-            text-align: center;
-            font-weight: $fontBold;
-        }
+.favoritos {
+  background-color: rgb(239, 188, 219);
+  display: flex;
+}
+
+.contacto {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: rgb(181, 166, 195);
+  padding: 30px;
+  label {
+    color: rgb(73, 39, 185);
+  }
+}
+
+.ayuda {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+li {
+  a {
+    color: rgb(235, 68, 229);
+    list-style-type: none;
+    text-decoration: none;
+    &:hover {
+      color: rgb(43, 222, 58);
     }
+  }
 }
 
-.form-ingreso{
-     button{
-        background-color:#e73186;
-     }
-     .form-check{
-     .form-check-input{
-        background-color:#e73186;
-                          }
-                  }
+footer {
+  padding: 20px 30px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(228, 138, 232);
+  a {
+    text-decoration: none;
+    display: block;
+    color: rgb(51, 20, 255);
+    font-size: 0.8rem;
+    margin-bottom: 4px;
+  }
+}
+.pagina-error-404 {
+  li {
+    a {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      font-weight: $fontBold;
+    }
+  }
 }
 
-
-
-       
+.form-ingreso {
+  button {
+    background-color: #e73186;
+  }
+  .form-check {
+    .form-check-input {
+      background-color: #e73186;
+    }
+  }
+}
