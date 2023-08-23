@@ -1,6 +1,6 @@
 p {
   font-family: $secondFont;
-  @include textos(1.2em, 10px, rgb(137, 45, 149));
+  @include textos(1.2em, 10px, rgb(69, 62, 70));
 }
 
 h1 {
@@ -10,6 +10,62 @@ h1 {
   font-family: $mainFont;
   padding: 15px;
 }
+// SECCION DE ANUNCIO CON ANIMACION
+
+.seccion-anuncio {
+  background-color: black;
+  width: 100%;
+  font-size: 0.8rem;
+  overflow-x: hidden;
+  color:antiquewhite; 
+
+  a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+}
+.contenedor-envios {
+  background-color:black;
+  width: 100%;
+  position: relative;
+  align-items: center;
+  margin-left: 10px;
+  animation: animation 11s linear infinite;
+
+  a {
+    display: flex;
+    align-items: center;
+
+    svg {
+      margin-top: 1px;
+      padding-top: 1px;
+    }
+
+    p {
+      margin-left: 10px;
+      margin-bottom: 0px;
+    }
+  }
+}
+.contenedor-descuentos {
+  @extend .contenedor-envios;
+}
+.contenedor-cuotas {
+  @extend .contenedor-envios;
+}
+
+@keyframes animation {
+  0% {
+    left: 0%;
+    transform: translateX(0%);
+  }
+
+  100% {
+    left: 100%;
+    transform: translateX(100%);
+  }
+}
+// TEMRMINA SECION DE ANUNCIOS CON ANIMACION
 
 .bg-pattern {
   background-repeat: repeat;
@@ -59,10 +115,10 @@ h1 {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  background-color: rgb(181, 166, 195);
+  background-color: rgb(224, 211, 234);
   padding: 30px;
   label {
-    color: rgb(73, 39, 185);
+    color: rgb(26, 25, 27);
   }
 }
 
@@ -74,7 +130,7 @@ h1 {
 
 li {
   a {
-    color: rgb(235, 68, 229);
+    color: rgb(68, 191, 235);
     list-style-type: none;
     text-decoration: none;
     &:hover {
@@ -85,7 +141,7 @@ li {
 
 footer {
   padding: 20px 30px;
-  margin-top: 50px;
+  margin-top: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;

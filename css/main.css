@@ -1,6 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Bitter:ital@1&family=Lato:wght@100&family=Mukta:wght@200&family=Roboto&display=swap");
-.header-gral,
-.header-promos {
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital@1&family=Roboto&display=swap");
+.header-gral, .header-promos {
   height: fit-content;
   background-image: url(../img/bannerDesarrolloweb.png);
 }
@@ -10,10 +9,10 @@
 }
 
 p {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-size: size;
   padding: 10px;
-  color: rgb(137, 45, 149);
+  color: rgb(69, 62, 70);
 }
 
 h1 {
@@ -24,8 +23,50 @@ h1 {
   padding: 15px;
 }
 
-.bg-pattern,
-.pagina-error-404 {
+.seccion-anuncio {
+  background-color: black;
+  width: 100%;
+  font-size: 0.8rem;
+  overflow-x: hidden;
+  color: antiquewhite;
+}
+.seccion-anuncio a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.contenedor-envios, .contenedor-cuotas, .contenedor-descuentos {
+  background-color: black;
+  width: 100%;
+  position: relative;
+  align-items: center;
+  margin-left: 10px;
+  animation: animation 11s linear infinite;
+}
+.contenedor-envios a, .contenedor-cuotas a, .contenedor-descuentos a {
+  display: flex;
+  align-items: center;
+}
+.contenedor-envios a svg, .contenedor-cuotas a svg, .contenedor-descuentos a svg {
+  margin-top: 1px;
+  padding-top: 1px;
+}
+.contenedor-envios a p, .contenedor-cuotas a p, .contenedor-descuentos a p {
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+
+@keyframes animation {
+  0% {
+    left: 0%;
+    transform: translateX(0%);
+  }
+  100% {
+    left: 100%;
+    transform: translateX(100%);
+  }
+}
+.bg-pattern, .pagina-error-404 {
   background-repeat: repeat;
   background-attachment: fixed;
 }
@@ -69,11 +110,11 @@ h1 {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  background-color: rgb(181, 166, 195);
+  background-color: rgb(224, 211, 234);
   padding: 30px;
 }
 .contacto label {
-  color: rgb(73, 39, 185);
+  color: rgb(26, 25, 27);
 }
 
 .ayuda {
@@ -83,7 +124,7 @@ h1 {
 }
 
 li a {
-  color: rgb(235, 68, 229);
+  color: rgb(68, 191, 235);
   list-style-type: none;
   text-decoration: none;
 }
@@ -93,7 +134,7 @@ li a:hover {
 
 footer {
   padding: 20px 30px;
-  margin-top: 50px;
+  margin-top: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -289,7 +330,7 @@ footer a {
     padding: 8px;
     border-radius: 4px;
   }
-  .filters input[type="checkbox"] {
+  .filters input[type=checkbox] {
     display: none;
   }
   .actions {
