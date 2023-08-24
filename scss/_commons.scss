@@ -67,6 +67,21 @@ h1 {
 }
 // TEMRMINA SECION DE ANUNCIOS CON ANIMACION
 
+.tuEstilo{
+  h2 {
+      text-align: center;
+      position:relative;
+  
+          span{
+              font-size: 1.1rem;
+              z-index:100;
+              position:relative;
+              padding:15px;
+          }
+    }
+  
+}
+
 .bg-pattern {
   background-repeat: repeat;
   background-attachment: fixed;
@@ -89,10 +104,10 @@ h1 {
 }
 
 .about {
-  padding: 20 20px;
+  padding: 30 20px;
   padding: 40px;
-  font-size: $textMd;
-  text-align: center;
+  font-size: $textSm;
+  text-align:justify;
   .__box {
     display: flex;
     flex-direction: row;
@@ -115,7 +130,6 @@ h1 {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  background-color: rgb(224, 211, 234);
   padding: 30px;
   label {
     color: rgb(26, 25, 27);
@@ -128,7 +142,9 @@ h1 {
   text-align: center;
 }
 
+
 li {
+  list-style: none;
   a {
     color: rgb(68, 191, 235);
     list-style-type: none;
@@ -145,10 +161,8 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(228, 138, 232);
+  background-color: rgb(208, 203, 209);
 
-  li {
-    list-style: none;
     a {
       text-decoration: none;
       display: block;
@@ -157,7 +171,7 @@ footer {
       margin-bottom: 4px;
     }
   }
-}
+
 .pagina-error-404 {
   li {
     a {

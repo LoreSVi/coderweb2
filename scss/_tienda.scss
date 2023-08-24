@@ -15,16 +15,16 @@
 
  .tienda {
         .actions{
-        padding: 0 30px;
+        padding: 0 10px;
         grid-area: actions;
          display: flex;
-        justify-content: flex-end;
+        justify-content:center;
          align-items: center;
                button{
                 margin-left: 10px;
-              background-color: rgb(168, 94, 216);
+              background-color: rgb(187, 128, 226);
                color: white;
-               padding: 6px;
+               padding: 8px;
               border: none;
                border-radius: 3px;
                       }
@@ -32,7 +32,7 @@
                 padding: 6px;
                  border-radius: 3px;
                  border: none;
-                 background-color: rgb(180, 169, 174);
+                 background-color: rgb(243, 214, 227);
                       }
         }
     } 

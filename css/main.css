@@ -66,6 +66,17 @@ h1 {
     transform: translateX(100%);
   }
 }
+.tuEstilo h2 {
+  text-align: center;
+  position: relative;
+}
+.tuEstilo h2 span {
+  font-size: 1.1rem;
+  z-index: 100;
+  position: relative;
+  padding: 15px;
+}
+
 .bg-pattern, .pagina-error-404 {
   background-repeat: repeat;
   background-attachment: fixed;
@@ -84,10 +95,10 @@ h1 {
 }
 
 .about {
-  padding: 20 20px;
+  padding: 30 20px;
   padding: 40px;
-  font-size: 2em;
-  text-align: center;
+  font-size: 1em;
+  text-align: justify;
 }
 .about .__box {
   display: flex;
@@ -110,7 +121,6 @@ h1 {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  background-color: rgb(224, 211, 234);
   padding: 30px;
 }
 .contacto label {
@@ -123,6 +133,9 @@ h1 {
   text-align: center;
 }
 
+li {
+  list-style: none;
+}
 li a {
   color: rgb(68, 191, 235);
   list-style-type: none;
@@ -138,12 +151,9 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(228, 138, 232);
+  background-color: rgb(208, 203, 209);
 }
-footer li {
-  list-style: none;
-}
-footer li a {
+footer a {
   text-decoration: none;
   display: block;
   color: rgb(51, 20, 255);
@@ -238,6 +248,9 @@ footer li a {
   padding: 10px;
   margin-bottom: 20px;
 }
+.productos figure a {
+  text-decoration: none;
+}
 
 .tienda {
   display: grid;
@@ -248,17 +261,17 @@ footer li a {
 }
 
 .tienda .actions {
-  padding: 0 30px;
+  padding: 0 10px;
   grid-area: actions;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
 }
 .tienda .actions button {
   margin-left: 10px;
-  background-color: rgb(168, 94, 216);
+  background-color: rgb(187, 128, 226);
   color: white;
-  padding: 6px;
+  padding: 8px;
   border: none;
   border-radius: 3px;
 }
@@ -266,7 +279,7 @@ footer li a {
   padding: 6px;
   border-radius: 3px;
   border: none;
-  background-color: rgb(180, 169, 174);
+  background-color: rgb(243, 214, 227);
 }
 
 .tienda .filters {
