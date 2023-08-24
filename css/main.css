@@ -8,6 +8,10 @@
   background-image: url(../img/headersimg/sale50off.jpg);
 }
 
+* {
+  box-sizing: border-box;
+}
+
 p {
   font-family: "Roboto", sans-serif;
   font-size: size;
@@ -146,7 +150,7 @@ li a:hover {
 }
 
 footer {
-  padding: 20px 30px;
+  padding: 10px 60px;
   margin-top: 10px;
   display: flex;
   justify-content: space-between;
@@ -166,6 +170,18 @@ footer a {
   flex-direction: column;
   text-align: center;
   font-weight: 600;
+}
+
+.Promos button {
+  border: solid;
+  background-color: rgb(236, 197, 214);
+  color: white;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.Promos a {
+  text-decoration: none;
 }
 
 .form-ingreso button {
@@ -315,6 +331,20 @@ footer a {
   align-items: center;
 }
 
+@media (width < 1024px) {
+  .productos figure {
+    width: 48%;
+  }
+}
+@media (width < 768px) {
+  /* index */
+  .productos {
+    padding: 0 20px;
+  }
+  .productos figure {
+    width: 100%;
+  }
+}
 @media (width < 768px) {
   .tienda {
     grid-template-columns: 1fr 2fr 2fr;
@@ -365,8 +395,11 @@ footer a {
   footer div:nth-child(2) {
     margin: 10px 0;
   }
+  .productos {
+    padding: 0 20px;
+  }
   .productos figure {
-    width: 160px;
+    width: 100px;
     flex-direction: column;
     align-items: center;
     justify-content: center;

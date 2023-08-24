@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 p {
   font-family: $secondFont;
   @include textos(1.2em, 10px, rgb(69, 62, 70));
@@ -156,7 +159,7 @@ li {
 }
 
 footer {
-  padding: 20px 30px;
+  padding: 10px 60px;
   margin-top: 10px;
   display: flex;
   justify-content: space-between;
@@ -182,6 +185,22 @@ footer {
     }
   }
 }
+
+.Promos {
+  button{
+    border: solid;
+    background-color:$mainColor;
+    color: white;
+    border-radius: 8px;
+    padding:10px ;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+} 
+
+}
+
 
 .form-ingreso {
   button {

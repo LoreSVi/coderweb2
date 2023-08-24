@@ -2,6 +2,8 @@
 $mainColor:rgb(236, 197, 214);
 $footerColor:rgb(131, 123, 125);
 
+
+
 @mixin textos($size,$padding,$color){
     font-size: size;
     padding: $padding;

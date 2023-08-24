@@ -1,3 +1,19 @@
+@media (width < 1024px){
+    .productos figure{
+        width: 48%;
+    }
+}
+
+@media (width < 768px){
+    /* index */
+    .productos{
+        padding: 0 20px;
+    }
+    .productos figure{
+        width: 100%;
+    }
+}
+
 @media (width < 768px){
   
     .tienda{
@@ -72,9 +88,12 @@
 
       
 
-   
+    .productos{
+            padding: 0 20px;
+        }
+       
     .productos figure{
-      width:160px;
+      width:100px;
         flex-direction: column;
         align-items: center;
         justify-content: center;
