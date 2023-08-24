@@ -366,20 +366,23 @@ footer a {
     margin: 10px 0;
   }
   .productos figure {
-    width: 100%;
+    width: 160px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: unset;
   }
   .productos figure p {
     padding: 0 20px;
-    font-size: 1.8em;
+    font-size: 1em;
   }
   .productos figure img {
-    width: 50%;
+    width: 70%;
   }
   .productos figure button {
-    width: 90%;
+    width: 80%;
   }
   p {
-    font-size: 1em;
     padding: 0 10px;
   }
 }
