@@ -4,43 +4,14 @@
     grid-template-columns: 20% 40% 40%;
     grid-template-rows: 80px repeat(3,300px);
     grid-template-areas: 
-    "actions actions actions" 
-    "filters dos tres"
-    "filters dos cuatro"
-    "filters uno uno" 
+  
+    "dos dos cuatro"
+    "dos dos cuatro"
+    "uno uno tres" 
     ;
     gap: 5px;
 }
 
-
- .tienda {
-        .actions{
-        padding: 0 10px;
-        grid-area: actions;
-         display: flex;
-        justify-content:center;
-         align-items: center;
-               button{
-                margin-left: 10px;
-              background-color: rgb(187, 128, 226);
-               color: white;
-               padding: 8px;
-              border: none;
-               border-radius: 3px;
-                      }
-                 input{
-                padding: 6px;
-                 border-radius: 3px;
-                 border: none;
-                 background-color: rgb(243, 214, 227);
-                      }
-        }
-    } 
-     
-
-    .tienda .filters{
-        grid-area: filters;
-    }
 
     .tienda .prod1{
         grid-area: uno;

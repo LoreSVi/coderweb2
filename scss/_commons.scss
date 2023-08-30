@@ -85,6 +85,28 @@ h1 {
   
 }
 
+.actions{
+  padding: 0 10px;
+   display: flex;
+  justify-content:center;
+   align-items: center;
+         button{
+          margin-left: 10px;
+        background-color: rgb(187, 128, 226);
+         color: white;
+         padding: 8px;
+        border: none;
+         border-radius: 3px;
+                }
+           input{
+          padding: 8px;
+           border-radius: 3px;
+           border: none;
+           background-color: rgb(243, 214, 227);
+                }
+  }
+
+
 .bg-pattern {
   background-repeat: repeat;
   background-attachment: fixed;
