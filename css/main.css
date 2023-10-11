@@ -119,6 +119,10 @@ h1 {
   display: flex;
 }
 
+.navbar-brand {
+  border-radius: 50%;
+}
+
 .about {
   padding: 30 20px;
   padding: 40px;
@@ -238,13 +242,16 @@ img {
 
 @keyframes animadoheader {
   0% {
-    background-image: url(../img/headersimg/favoritoheart.jpg);
+    background-image: url(../img/headersimg/chicacaminando.png);
   }
   50% {
-    background-image: url(../img/headersimg/heart2.jpg);
+    background-image: url(../img/headersimg/corazones.png);
+  }
+  75% {
+    background-image: url(../img/headersimg/chicacaminando.png);
   }
   100% {
-    background-image: url(../img/headersimg/corazon3.jpg);
+    background-image: url(../img/headersimg/corazones.png);
   }
 }
 .headerAnimado {

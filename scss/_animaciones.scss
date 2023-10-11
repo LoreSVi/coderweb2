@@ -1,13 +1,22 @@
 @keyframes animadoheader {
-    0%{background-image: url(../img/headersimg/favoritoheart.jpg)}
-    50%{background-image: url(../img/headersimg/heart2.jpg)}
-    100%{background-image: url(../img/headersimg/corazon3.jpg)}
+  0% {
+    background-image: url(../img/headersimg/chicacaminando.png);
+  }
+  50% {
+    background-image: url(../img/headersimg/corazones.png);
+  }
+  75% {
+    background-image: url(../img/headersimg/chicacaminando.png);
+  }
+  100% {
+    background-image: url(../img/headersimg/corazones.png);
+  }
 }
 
-.headerAnimado{
-    height:50vh;
-    background-size: cover;
-    animation-name: animadoheader;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
+.headerAnimado {
+  height: 50vh;
+  background-size: cover;
+  animation-name: animadoheader;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
 }
