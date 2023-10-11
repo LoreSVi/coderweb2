@@ -7,13 +7,21 @@
         li{
             margin-left: 7px;
             a{
-                color:black;
+                color:white;
                 font-size: $textMd;
                 &:hover{
-                    color:blueviolet;
+                    color:deeppink;
                 }
             }
         }
     }
 }
 
+.logoMarca{
+    text-align:center;
+}
+ img{
+    display: block;
+   margin: 0 auto;
+ 
+}

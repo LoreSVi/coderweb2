@@ -15,13 +15,19 @@
 }
 
 @media (width < 768px){
-  
+  .actions{
+    justify-content: flex-start;
+    align-items:flex-start;
+    .button{
+        padding: 0%;
+        margin: 2px;
+    }
+  }
+
     .tienda{
         grid-template-columns: 1fr 2fr 2fr;
         grid-template-rows: repeat(6,auto);
         grid-template-areas: 
-        "actions" 
-        "filters" 
         "uno" 
         "dos" 
         "tres" 
@@ -116,4 +122,19 @@
     p{
         padding: 0 10px;
     }
+}
+
+
+@media (width < 490px){
+    .actions{
+      justify-content: flex-start;
+      align-items:flex-start;
+      position:relative;
+      .button{
+          flex-wrap:initial;
+          padding: 0%;
+          margin: 2px;
+         flex-direction: column;
+      }
+}
 }

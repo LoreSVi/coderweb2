@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
 }
 p {
@@ -11,7 +11,7 @@ h1 {
   font-family: "Kalam", cursive;
   font-weight: 500;
   padding: 15px;
-  color:black
+  color: black;
 }
 // SECCION DE ANUNCIO CON ANIMACION
 
@@ -70,42 +70,40 @@ h1 {
 }
 // TEMRMINA SECION DE ANUNCIOS CON ANIMACION
 
-.tuEstilo{
+.tuEstilo {
   h2 {
-      text-align: center;
-      position:relative;
-  
-          span{
-              font-size: 1.1rem;
-              z-index:100;
-              position:relative;
-              padding:15px;
-          }
+    text-align: center;
+    position: relative;
+
+    span {
+      font-size: 1.1rem;
+      z-index: 100;
+      position: relative;
+      padding: 15px;
     }
-  
+  }
 }
 
-.actions{
+.actions {
   padding: 0 10px;
-   display: flex;
-  justify-content:center;
-   align-items: center;
-         button{
-          margin-left: 10px;
-        background-color: rgb(187, 128, 226);
-         color: white;
-         padding: 8px;
-        border: none;
-         border-radius: 3px;
-                }
-           input{
-          padding: 8px;
-           border-radius: 3px;
-           border: none;
-           background-color: rgb(243, 214, 227);
-                }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  button {
+    margin-left: 10px;
+    background-color: rgb(187, 128, 226);
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
   }
-
+  input {
+    padding: 6px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(243, 214, 227);
+  }
+}
 
 .bg-pattern {
   background-repeat: repeat;
@@ -132,7 +130,7 @@ h1 {
   padding: 30 20px;
   padding: 40px;
   font-size: $textSm;
-  text-align:justify;
+  text-align: justify;
   .__box {
     display: flex;
     flex-direction: row;
@@ -167,7 +165,6 @@ h1 {
   text-align: center;
 }
 
-
 li {
   list-style: none;
   a {
@@ -181,21 +178,17 @@ li {
 }
 
 footer {
-  padding: 10px 60px;
+  padding: 5px 20px;
   margin-top: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(208, 203, 209);
-
-    a {
-      text-decoration: none;
-      display: block;
-      color: rgb(51, 20, 255);
-      font-size: 0.8rem;
-      margin-bottom: 4px;
-    }
+  background-color: deeppink;
+  height: auto; 
+  p{
+    color: white !important;
   }
+}
 
 .pagina-error-404 {
   li {
@@ -209,20 +202,19 @@ footer {
 }
 
 .Promos {
-  button{
+  button {
     border: solid;
-    background-color:$mainColor;
+    background-color: $mainColor;
     color: white;
     border-radius: 8px;
-    padding:10px ;
+    padding: 10px;
     margin-bottom: 20px;
-}
-a{
+  }
+  a {
     text-decoration: none;
-} 
-
+    color: white !important
+  }
 }
-
 
 .form-ingreso {
   button {
