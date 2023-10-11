@@ -126,7 +126,7 @@ h1 {
   display: flex;
 }
 
-.navbar-brand{
+.navbar-brand {
   border-radius: 50%;
 }
 
@@ -146,6 +146,15 @@ h1 {
       font-family: $mainFont;
     }
   }
+}
+
+.card button {
+  margin-left: 10px;
+  background-color: rgb(187, 128, 226);
+  color: white;
+  padding: 8px;
+  border: none;
+  border-radius: 3px;
 }
 
 .favoritos {
@@ -188,8 +197,8 @@ footer {
   justify-content: space-between;
   align-items: center;
   background-color: deeppink;
-  height: auto; 
-  p{
+  height: auto;
+  p {
     color: white !important;
   }
 }
@@ -216,7 +225,7 @@ footer {
   }
   a {
     text-decoration: none;
-    color: white !important
+    color: white !important;
   }
 }
 
